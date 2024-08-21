@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cardápio digital de um restaurante italiano com pratos principais, sobremesas e bebidas.">
+    <title>Cardápio - Tradizione</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="bi bi-list"></i> Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html"><i class="bi bi-shop"></i> Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html"><i class="bi bi-cart-plus"></i> Cadastro</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-bege text-center">Nosso Cardápio</h1>
+
+        <div class="section mb-4">
+            <h2 class="text-vermelho">Pratos Principais</h2>
+            <div class="row">
+                <!-- Prato 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/massa.png" class="card-img-top img-fluid" alt="Massa ao molho de tomate">
+                        <div class="card-body">
+                            <h5 class="card-title">Massa ao molho de tomate</h5>
+                            <p class="card-text">Massa italiana servida com um autêntico molho de tomate feito com tomates frescos, manjericão, alho e um toque de azeite de oliva.</p>
+                            <p class="card-text"><strong>R$ 35,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 1 pessoa</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Prato 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/risoto.png" class="card-img-top img-fluid" alt="Risoto de cogumelos">
+                        <div class="card-body">
+                            <h5 class="card-title">Risoto de cogumelos</h5>
+                            <p class="card-text">Arroz arbóreo cozido à perfeição com cogumelos frescos, queijo parmesão e um toque de vinho branco, finalizado com salsa.</p>
+                            <p class="card-text"><strong>R$ 42,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 1 pessoa</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Prato 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/frango.png" class="card-img-top img-fluid" alt="Frango à caçadora">
+                        <div class="card-body">
+                            <h5 class="card-title">Frango à caçadora</h5>
+                            <p class="card-text">Peito de frango suculento cozido lentamente com tomates, pimentões, cebolas e azeitonas, em um molho rico e aromático.</p>
+                            <p class="card-text"><strong>R$ 45,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 2 pessoas</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Prato 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/vitela.png" class="card-img-top img-fluid" alt="Canela de vitela">
+                        <div class="card-body">
+                            <h5 class="card-title">Canela de vitela</h5>
+                            <p class="card-text">Corte nobre de vitela cozido lentamente com vinho branco, legumes e ervas, servido com um molho espesso e saboroso.</p>
+                            <p class="card-text"><strong>R$ 50,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 1 pessoa</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Prato 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/lasanha.png" class="card-img-top img-fluid" alt="Lasanha à bolonhesa">
+                        <div class="card-body">
+                            <h5 class="card-title">Lasanha à bolonhesa</h5>
+                            <p class="card-text">Camadas de massa fresca, molho à bolonhesa feito com carne moída de alta qualidade, molho bechamel cremoso e queijo gratinado.</p>
+                            <p class="card-text"><strong>R$ 48,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 2 pessoas</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Prato 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/pizza.png" class="card-img-top img-fluid" alt="Pizza de Margherita">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza de Margherita</h5>
+                            <p class="card-text">Pizza tradicional com massa fina e crocante, coberta com molho de tomate, muçarela de búfala, manjericão e um fio de azeite de oliva.</p>
+                            <p class="card-text"><strong>R$ 52,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 2 a 3 pessoas</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section mb-4">
+            <h2 class="text-vermelho">Sobremesas</h2>
+            <div class="row">
+                <!-- Sobremesa 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/tiramisu.png" class="card-img-top img-fluid" alt="Tiramisu">
+                        <div class="card-body">
+                            <h5 class="card-title">Tiramisu</h5>
+                            <p class="card-text">Clássica sobremesa com camadas de biscoitos de champagne embebidos em café, creme de mascarpone e uma leve polvilhada de cacau.</p>
+                            <p class="card-text"><strong>R$ 25,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 2 pessoas</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sobremesa 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/cannoli.png" class="card-img-top img-fluid" alt="Cannoli siciliano">
+                        <div class="card-body">
+                            <h5 class="card-title">Cannoli siciliano</h5>
+                            <p class="card-text">Massa crocante recheada com um creme suave de ricota e raspas de laranja, finalizado com uma leve camada de açúcar de confeiteiro.</p>
+                            <p class="card-text"><strong>R$ 20,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 1 pessoa (1 unidade)</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sobremesa 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/panacota.png" class="card-img-top img-fluid" alt="Panna Cotta">
+                        <div class="card-body">
+                            <h5 class="card-title">Panna Cotta</h5>
+                            <p class="card-text">Sobremesa cremosa de origem italiana, feita com creme de leite e baunilha, servida com uma compota de frutas vermelhas.</p>
+                            <p class="card-text"><strong>R$ 22,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 1 pessoa</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sobremesa 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/sorvete.png" class="card-img-top img-fluid" alt="Sorvete">
+                        <div class="card-body">
+                            <h5 class="card-title">Sorvete</h5>
+                            <p class="card-text">Sorvete artesanal, disponível em sabores variados, dentre eles: baunilha, chocolate e pistache.</p>
+                            <p class="card-text"><strong>R$ 15,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 1 pessoa</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sobremesa 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/torta.png" class="card-img-top img-fluid" alt="Torta da avó">
+                        <div class="card-body">
+                            <h5 class="card-title">Torta da avó</h5>
+                            <p class="card-text">Tradicional torta italiana de creme de amêndoas, com uma crosta crocante e coberta com pinhões tostados.</p>
+                            <p class="card-text"><strong>R$ 23,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 2 pessoas</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sobremesa 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/zeppole.png" class="card-img-top img-fluid" alt="Zeppole">
+                        <div class="card-body">
+                            <h5 class="card-title">Zeppole</h5>
+                            <p class="card-text">Bolinhos fritos crocantes, polvilhados com açúcar de confeiteiro e servidos com um acompanhamento de creme.</p>
+                            <p class="card-text"><strong>R$ 22,00</strong></p>
+                            <p><i class="bi bi-person"></i> Serve 1 pessoa (4 unidades)</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>                                
+            </div>
+        </div>
+
+        <div class="section mb-4">
+            <h2 class="text-vermelho">Bebidas</h2>
+            <div class="row">
+                <!-- Bebida 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/agua.png" class="card-img-top img-fluid" alt="Água">
+                        <div class="card-body">
+                            <h5 class="card-title">Água</h5>
+                            <p class="card-text">Água mineral fresca, disponível com ou sem gás.</p>
+                            <p class="card-text"><strong>R$ 5,00</strong></p>
+                            <p><i class="bi bi-person"></i> Garrafa de 500ml</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bebida 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/vinho.png" class="card-img-top img-fluid" alt="Vinho tinto">
+                        <div class="card-body">
+                            <h5 class="card-title">Vinho tinto</h5>
+                            <p class="card-text">Vinho tinto italiano selecionado, de sabor encorpado e aroma frutado.</p>
+                            <p class="card-text"><strong>R$ 30,00</strong></p>
+                            <p><i class="bi bi-person"></i> Garrafa de 750ml</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bebida 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/cafe.png" class="card-img-top img-fluid" alt="Café">
+                        <div class="card-body">
+                            <h5 class="card-title">Café</h5>
+                            <p class="card-text">Café expresso preparado com grãos selecionados para um sabor intenso.</p>
+                            <p class="card-text"><strong>R$ 8,00</strong></p>
+                            <p><i class="bi bi-person"></i> Xícara de 300ml</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bebida 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/cerveja.png" class="card-img-top img-fluid" alt="Cerveja">
+                        <div class="card-body">
+                            <h5 class="card-title">Cerveja</h5>
+                            <p class="card-text">Cerveja artesanal italiana, leve e refrescante.</p>
+                            <p class="card-text"><strong>R$ 12,00</strong></p>
+                            <p><i class="bi bi-person"></i> Garrafa de 500ml</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bebida 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/soda.png" class="card-img-top img-fluid" alt="Soda italiana">
+                        <div class="card-body">
+                            <h5 class="card-title">Soda italiana</h5>
+                            <p class="card-text">Água mineral pura e refrescante, ideal para acompanhar suas refeições.</p>
+                            <p class="card-text"><strong>R$ 10,00</strong></p>
+                            <p><i class="bi bi-person"></i> Copo de 300ml</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bebida  -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/spritz.png" class="card-img-top img-fluid" alt="Spritz">
+                        <div class="card-body">
+                            <h5 class="card-title">Spritz</h5>
+                            <p class="card-text">Coquetel com prosecco, Aperol e água com gás, servido com fatias de laranja.</p>
+                            <p class="card-text"><strong>R$ 20,00</strong></p>
+                            <p><i class="bi bi-person"></i> Copo de 200ml</p>
+                            <a href="#" class="btn btn-success"><i class="bi bi-cart-check"></i> Adicionar ao carrinho</a>
+                            <a href="#" class="btn btn-danger"><i class="bi bi-cart-x"></i> Remover do carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Restaurante Tradizione. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

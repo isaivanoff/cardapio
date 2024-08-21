@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cadastre um novo item no catálogo.">
+    <title>Cadastro - Tradizione</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="bg-dark text-white p-3">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html"><img src="assets/logo2.png" alt="Logo" width="65"> Tradizione</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="bi bi-list"></i> Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html"><i class="bi bi-shop"></i> Sobre</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cadastro.html"><i class="bi bi-cart-plus"></i> Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h1 class="text-center text-bege mb-5">Cadastro de Item</h1>
+        <form>
+            <div class="form-group">
+                <label for="itemNome">Nome do Produto</label>
+                <input type="text" class="form-control" id="itemNome" placeholder="Digite o nome do produto">
+            </div>
+            <div class="form-group">
+                <label for="itemDescricao">Descrição</label>
+                <textarea class="form-control" id="itemDescricao" rows="3" placeholder="Descreva o produto"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="itemPreco">Preço</label>
+                <input type="number" class="form-control" id="itemPreco" placeholder="Digite o preço">
+            </div>
+            <div class="form-group">
+                <label for="itemFoto">Foto do Produto</label>
+                <input type="file" class="form-control-file" id="itemFoto">
+            </div>
+            <button type="submit" class="btn btn-success"><i class="bi bi-cart-plus"></i> Cadastrar Produto</button>
+        </form>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Restaurante Tradizione. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
